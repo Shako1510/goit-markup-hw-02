@@ -1,6 +1,25 @@
-body{
-    text-decoration: none;
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    position: relative;
+    width: 1600px;
+    height: 2350px;
+    background: #FFFFFF;
+    padding: 0px;
+    
+
 }
-.body-style {
-    background-color: white;
-}
+ .heder-link{
+     font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+color: #2196F3;
+ }
+ .span-header{
+     color: #000;
+ }
