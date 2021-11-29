@@ -1,13 +1,18 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
-    position: relative;
-    width: 1600px;
-    height: 2350px;
-    background: #FFFFFF;
-    padding: 0px;
-    
+    background-color: var(--background-color);
+    color: var(--page-text-color);
 
+}
+
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #FFFFFF;
+    --accent-text-color: #2196F3;
+    --page-text-color:#757575;
+    --background-color:#FFFFFF;
+    --background-color-main:#2F303A;
 }
  .logo{
      font-family: Raleway;
