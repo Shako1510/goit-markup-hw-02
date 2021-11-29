@@ -4,8 +4,11 @@ body {
     background-color: var(--background-color);
     color: var(--page-text-color);
 
+  
 }
-
+a{
+    text-decoration: none;
+}
 :root{
     --primary-text-color: #212121;
     --title-text-color: #FFFFFF;
@@ -14,30 +17,86 @@ body {
     --background-color:#FFFFFF;
     --background-color-main:#2F303A;
 }
+.page-header{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
  .logo{
-     font-family: Raleway;
+    font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-text-color)
  }
  .span-logo{
      color: #000;
  }
+ .nav{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ }
  .nav-list a {
-     color: #212121;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
  }
  .nav-list a:hover, 
  .nav-list a:focus  {
-     color: #2196F3;
+     color: var(--accent-text-color);
  }
- .contakt-item > a {
-     color: #757575;
+ .contakt a {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+     color:var(--page-text-color);
  }
-.contakt-item > a:hover
-
+.contakt a:hover,
+.contakt a:focus
 {
-     color: #2196F3;
- }
+    color: var(--accent-text-color);
+}
+.caption{
+    background: var(--background-color-main);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.caption-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--title-text-color)
+
+}
+.caption-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    background-color: var(--accent-text-color);
+}
+.advantage{
+    
+}
+.advantage-item h3 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.advantage-list p{
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--page-text-color);
+}
